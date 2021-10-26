@@ -569,4 +569,7 @@ footer .column
     text-decoration: none;
 }
 
-
+.column button:hover
+{
+    background-color: rgb(230, 14, 14);
+}
