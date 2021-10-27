@@ -411,7 +411,11 @@ height: 100%;
     text-align: center;
 }
 
-
+.get-ticket:hover
+{
+    color: #f60;
+    background: #fff;
+}
 
 
 
