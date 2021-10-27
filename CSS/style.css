@@ -267,7 +267,7 @@ main
 {
     transition: all 0.2s ease-in;
     transform: translateY(-20px);
-    box-shadow: 0 0 5px 4px darkblue;
+    box-shadow: 0 0 5px 4px rgb(231, 69, 69);
 }
 
 .stoimost
@@ -413,6 +413,7 @@ height: 100%;
 
 .get-ticket:hover
 {
+    transition: all 0.2s ease-in;
     color: #f60;
     background: #fff;
 }
