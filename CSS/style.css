@@ -267,7 +267,7 @@ main
 {
     transition: all 0.2s ease-in;
     transform: translateY(-20px);
-    box-shadow: 0 0 2px 4px darkblue;
+    box-shadow: 0 0 5px 4px darkblue;
 }
 
 .stoimost
