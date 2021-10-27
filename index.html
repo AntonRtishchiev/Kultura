@@ -124,11 +124,107 @@
                 </div>
             </div>
             </section>
+            <!-- ///////////////////////////////////////////////////////////////////////////// -->
         <section id="stoimost">
-            <h2>Расчет стоимости проекта</h2>
-            <p>Целью данного проекта является презентация проекта экологической направленности интернет-сообществу, а также потенциальным инвесторам и меценатам.
-
-                Проблема экологии в Донецкой Народной Республике, как и во всём мире, стоит достаточно остро, однако местные общественные организации и движения, поднимающие эту тему, известны лишь немногим активным пользователям Интернета. Именно поэтому наша команда решила остановить свой выбор на этой теме, разработать и представить проект сайта общестевенного движения "Зелёный Донбасс".</p>
+            <div class="calc-wrapper">
+              <div class="container">
+                <form id="form">
+                  <div class="heading">
+                    <h1 class="heading-title">Стоимость поддержки сайта</h1>
+                    <!-- <p class="heading-desc">Базовая цена: 1 м² = 6 тыс. рублей</p> -->
+                  </div>
+        
+                  <!-- Площадь -->
+                  <div class="calc-section">
+                    <label class="checkbox-wrapper title-bold section-title .section-title--vertical-center">
+                      <span class="title__inline">Срок хостинга сайта</span>
+                      <input type="number" min="0" max="60" value="1" id="square-input" class="title__inline input-short" />
+                      <span class="title__inline">мес.</span>
+                    </label>
+                    <input type="range" id="square-range" class="range-input" min="0" max="60" value="1" step="1" />
+                  </div>
+                  <!-- // Площадь -->
+        
+                  <!-- Мобильная адаптивность -->
+                  <div class="calc-section">
+                    <h4 class="checkbox-wrapper title-bold section-title">Домен</h4>
+                    <label class="radio-wrapper" data-name="mobile">
+                      <input type="radio" class="radio" name="type" value="0" />
+                      <div class="title-lite">.github.io</div>
+                    </label>
+                    <label class="radio-wrapper" data-name="mobile">
+                      <input type="radio" class="radio" name="type" value="900" checked />
+                      <div class="title-lite">
+                        .ru
+                        <span class="note">+900 руб. к стоимости</span>
+                      </div>
+                    </label>
+                    <label class="radio-wrapper" data-name="mobile">
+                      <input type="radio" class="radio" name="type" value="1300" />
+                      <div class="title-lite">
+                        .org
+                        <span class="note">+1300 руб. к стоимости</span>
+                      </div>
+                    </label>
+                  </div>
+                  <!-- // Мобильная адаптивность -->
+        
+                  <!-- Мобильная адаптивность -->
+                  <div class="calc-section">
+                    <label class="checkbox-wrapper title-bold section-title"> SEO продвижение </label>
+                    <label class="radio-wrapper">
+                      <input type="radio" class="radio" name="building" value="1" checked />
+                      <div class="title-lite">Без продвижения</div>
+                    </label>
+                    <label class="radio-wrapper">
+                      <input type="radio" class="radio" name="building" value="1.15" />
+                      <div class="title-lite">
+                        SEO-аудит
+                        <span class="note">+15% к стоимости</span>
+                      </div>
+                    </label>
+                  </div>
+                  <!-- // Мобильная адаптивность -->
+        
+                  <!-- Дополнительные опции -->
+                  <div class="calc-section">
+                    <label class="checkbox-wrapper title-bold section-title"> Сотрудники  </label>
+                    <label class="radio-wrapper">
+                      <input type="checkbox" class="radio" name="ceiling" value="6900" />
+                      <div class="title-lite">
+                        Программист
+                        <span class="note">+6900 руб.к стоимости</span>
+                      </div>
+                    </label>
+                    <label class="radio-wrapper">
+                      <input type="checkbox" class="radio" name="walls" value="7800" />
+                      <div class="title-lite">
+                        Администратор
+                        <span class="note">+7800 руб. к стоимости</span>
+                      </div>
+                    </label>
+                    <label class="radio-wrapper">
+                      <input type="checkbox" class="radio" name="floor" value="5500" />
+                      <div class="title-lite">
+                        Контент менеджер
+                        <span class="note">+5500 руб. к стоимости</span>
+                      </div>
+                    </label>
+                  </div>
+                  <!-- // Дополнительные опции -->
+        
+                  <!-- Стоимость ремонта -->
+                  <div class="calc-price">
+                    <div class="calc-price-title">Стоимость проекта:</div>
+                    <div class="calc-price-value">
+                      <span id="total-price">0</span>
+                      рублей
+                    </div>
+                  </div>
+                  <!-- // Стоимость ремонта -->
+                </form>
+              </div>
+            </div>
         </section>
         <!-- /////////////////////////////////////// -->
         <section id="partner">
@@ -261,7 +357,7 @@
                           </h2>
                           <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                              <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aa8ea29adca5abe2f71d00d6173bdc0aef9ed002aa78b9702861cefb675b7aee4&amp;width=100%&amp;height=617&amp;lang=ru_UA&amp;scroll=true"></script>
+                              <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aa8ea29adca5abe2f71d00d6173bdc0aef9ed002aa78b9702861cefb675b7aee4&amp;width=100%&amp;height=60vh&amp;lang=ru_UA&amp;scroll=true"></script>
 
                             </div>
                           </div>
@@ -350,7 +446,7 @@
                           </h2>
                           <div id="collapseTwoFour" class="accordion-collapse collapse" aria-labelledby="headingTwoFour" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                              <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ac058a3429964218676915bc3242bb42ad05097460ef06474351f9f08d974fca6&amp;width=100%&amp;height=656&amp;lang=ru_UA&amp;scroll=true"></script>
+                              <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ac058a3429964218676915bc3242bb42ad05097460ef06474351f9f08d974fca6&amp;width=100%&amp;height=60vh&amp;lang=ru_UA&amp;scroll=true"></script>
                             </div>
                           </div>
                         </div>
@@ -453,7 +549,7 @@
                           </h2>
                           <div id="collapseFourFour" class="accordion-collapse collapse" aria-labelledby="headingFourFour" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                              <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A1c12d35292db0b07057e2a6b372f36d3a2a92761e37f9189c87365defbd32c4f&amp;width=100%&amp;height=576&amp;lang=ru_UA&amp;scroll=true"></script>
+                              <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A1c12d35292db0b07057e2a6b372f36d3a2a92761e37f9189c87365defbd32c4f&amp;width=100%&amp;height=60vh&amp;lang=ru_UA&amp;scroll=true"></script>
 
                             </div>
                           </div>
