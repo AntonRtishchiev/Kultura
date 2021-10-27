@@ -44,7 +44,7 @@ nav
     top: 0px;
     width: 100%;
     /* background-color:  #c59f83; */
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(226, 226, 226);
     height: 60px; 
 }
 
@@ -457,7 +457,7 @@ height: 100%;
 
 footer
 {
-     padding: 30px 0; 
+     padding: 30px 0 5px 0; 
     /* background-color: #9c6843; */
     /* background-color: #beb3aa; */
     background:  linear-gradient(180deg,hsla(0,0%,100%,0) 0,hsla(0,0%,100.2%,0) 1%,#bd4b00);
