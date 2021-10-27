@@ -156,12 +156,8 @@ h4
 	.footer-cta-text {
 		font-size: 22px;
 	}
-}
-
-@media (max-width: 1170px) {
-	.social-icon-link {
+    .social-icon-link {
 		margin-right: 15px;
 		margin-bottom: 15px;
 	}
 }
-
