@@ -263,6 +263,13 @@ main
     
 }
 
+.card_zadachi:hover
+{
+    transition: all 0.2s ease-in;
+    transform: translateY(-20px);
+    box-shadow: 0 0 2px 4px darkblue;
+}
+
 .stoimost
 {
     padding: 50px 0;
