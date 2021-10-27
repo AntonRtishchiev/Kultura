@@ -44,7 +44,91 @@
 {
     header h1
     {
-        font-size: 6vw;
+        font-size: 10vw;
     }
 }
 
+@media (max-width: 450px)
+{
+    
+.card_zadachi_txt h3
+{
+    font-size: 20px;
+}
+
+.card_zadachi_txt p
+{
+    font-size: 14px;
+}
+}
+
+@media (max-width: 350px)
+{
+    
+.card_zadachi_txt h3
+{
+    font-size: 14px;
+}
+
+.card_zadachi_txt p
+{
+    font-size: 10px;
+}
+}
+
+@media (max-width: 600px)
+{
+    .p
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: none;
+        padding-bottom: 5px;
+    }
+    .p p
+     {
+        margin-bottom: 10%;
+        font-size: 1.5vw;
+     }
+     .filter_img 
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .img_p
+    {
+    width: 50%;
+    margin-bottom: 5%;
+    }
+    .get-ticket
+    {
+        position: absol;
+    }
+}
+
+@media (max-width: 767px)
+{
+    .footer_kontakt
+{
+    justify-content: center;
+    margin-bottom: 5%;
+}
+h4
+{
+    text-align: center;
+    margin-top: 5%;
+}
+.column
+{
+    justify-content: center;
+    align-items: center;
+}
+.footer_button
+{
+    width: 20%;
+    font-size: 2vw;
+    height: 40px;
+}
+}
