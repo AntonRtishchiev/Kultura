@@ -734,4 +734,7 @@ footer .column
 }
 
 
-
+.footer_kontakt img
+{
+    opacity: 0.6;
+}
