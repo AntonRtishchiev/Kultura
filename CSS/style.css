@@ -897,3 +897,8 @@ footer .column
 .rooms-radio-real:checked + .rooms-radio-fake {
 	background-color: #fbd422;
 }
+
+.footer_kontakt img:hover
+{
+    opacity: 0.7;
+}
