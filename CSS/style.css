@@ -582,60 +582,6 @@ footer .column
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-/* ------------------- Header ------------------- */
-
-.header-inner {
-	padding-top: 60px;
-	padding-bottom: 60px;
-	background-color: #e3f0f7;
-}
-
-.header-inner-row {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-
-.heading-inner {
-	font-size: 22px;
-	font-weight: 700;
-	letter-spacing: 0.26px;
-	line-height: 1;
-	margin: 0;
-}
-
-.heading-inner span {
-	display: inline-block;
-	line-height: 1;
-	margin: 0;
-	margin-bottom: 10px;
-	font-size: 32px;
-	font-weight: 700;
-	letter-spacing: 0.38px;
-}
-
-.social-icons {
-	display: flex;
-}
-
-.social-icon-link {
-	text-decoration: none;
-	margin-right: 30px;
-}
-
-
-
 /* ------------------- Calc ------------------- */
 .calc-wrapper {
 	padding-top: 50px;
