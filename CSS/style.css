@@ -20,7 +20,7 @@ header
     display: flex;
     flex-direction: column;
     justify-content: center; 
-   /* background-image: linear-gradient(to right, rgba(238, 203, 161, 0.5), rgba(165, 105, 32, 0.5)); */
+   
     background-image: linear-gradient(to right, rgba(194, 190, 186, 0.4), rgba(228, 222, 214, 0.4)); 
 }
 
@@ -43,7 +43,7 @@ nav
     position: fixed;
     top: 0px;
     width: 100%;
-    /* background-color:  #c59f83; */
+    
     background-color: rgb(226, 226, 226);
     height: 60px; 
 }
@@ -54,7 +54,7 @@ nav ul
     flex-direction: row;
     justify-content:right; 
     align-items: center;
-    margin-right: 3%;
+    margin-right: 3%; 
     
 }
 
@@ -103,12 +103,7 @@ header h1
     text-shadow:1px 1px 0 rgb(223,223,223),2px 2px 0 rgb(191,191,191),3px 3px 0 rgb(159,159,159),4px 4px 0 rgb(128,128,128),5px 5px 0 rgb(96,96,96),6px 6px 0 rgb(64,64,64),7px 7px 0 rgb(32,32,32),8px 8px 1px rgba(0,0,0,1);
 }
 
-.nav_img img
-{
-    width: 60px;
-    height: 60px;
-    margin-right: 600px;
-}
+
 
 .container-fluid a img
 {
@@ -145,10 +140,9 @@ h2
 
 main
 {
-    /* background-image: linear-gradient(to right, rgba(238, 203, 161, 0.35), rgba(165, 105, 32, 0.35)), url(../img/bg-img.jpg); */
     background-image: linear-gradient(to right, rgba(160, 158, 156, 0.35), rgba(204, 204, 204, 0.35)), url(../img/bg-img.jpg);
     background-attachment: fixed;
-    /* background-color: rgb(243, 234, 222); */
+    
 }
 
 .project
@@ -172,6 +166,7 @@ main
 {
    
     width: 100%;
+    margin: 50px auto;
     font-size: 25px;
     padding-bottom: 20px;
     text-align: justify;
@@ -198,13 +193,7 @@ main
     color: rgb(243, 12, 12);
 }
 
-/* .zadachi p
-{
-    margin-top: 50px;
-    width: 50%;
-    font-size: 25px;
-    text-align: justify;
-} */
+
 
 .cards_zadachi
 {
@@ -226,7 +215,7 @@ main
     width: 48%;
     padding: 20px 0;
     margin-bottom: 40px;
-    /* box-shadow: 10px 10px 15px rgb(73 78 92 / 10%); */
+    
     background: #fff;
     height: 130px;
     border-radius: 15px;
@@ -270,6 +259,11 @@ main
     box-shadow: 0 0 5px 4px rgb(231, 69, 69);
 }
 
+#stoimost
+{
+    padding-top: 50px;
+}
+
 .stoimost
 {
     padding: 50px 0;
@@ -279,12 +273,10 @@ main
     align-items: center;
 }
 
-.stoimost p
+#stoimost h2
 {
-    margin-top: 50px;
-    width: 50%;
-    font-size: 25px;
-    text-align: justify;
+    margin-bottom: 50px;
+    color: rgb(243, 12, 12);
 }
 
 #partner
@@ -318,10 +310,9 @@ main
 
 #accordionFlushExample .accordion-button
 {
-/* background-color: #c59f83; */
-background-color: rgb(255, 141, 65);
-color: #FFF;
-border-radius: 50px;
+    background-color: rgb(255, 141, 65);
+    color: #FFF;
+    border-radius: 50px;
 }
 
 #accordionFlushExample h2
@@ -424,7 +415,6 @@ height: 100%;
 
 
 
-
 #komanda
 {
     padding-top: 50px;
@@ -465,8 +455,7 @@ height: 100%;
 footer
 {
      padding: 30px 0 5px 0; 
-    /* background-color: #9c6843; */
-    /* background-color: #beb3aa; */
+  
     background:  linear-gradient(180deg,hsla(0,0%,100%,0) 0,hsla(0,0%,100.2%,0) 1%,#bd4b00);
 }
 
@@ -647,55 +636,6 @@ footer .column
 
 
 
-
-/* ------------------- Footer ------------------- */
-
-
-.footer-cta-title {
-	font-size: 42px;
-	font-weight: 700;
-	letter-spacing: 0.5px;
-	margin-bottom: 25px;
-	display: inline-block;
-}
-
-.footer-text {
-	margin: 0;
-	font-size: 18px;
-	font-weight: 400;
-	letter-spacing: 0.43px;
-}
-
-.footer-text a {
-	color: #4298e8;
-	text-decoration: underline;
-}
-
-.footer-cta-text {
-	margin: 0;
-	font-size: 36px;
-	font-weight: 100;
-	letter-spacing: 0.43px;
-}
-
-.footer-cta-text a {
-	color: #4298e8;
-	text-decoration: underline;
-}
-
-
-
-.footer-inner {
-	text-align: center;
-	padding-bottom: 80px;
-}
-
-.text-center {
-	text-align: center;
-}
-
-
-
 /* ------------------- Calc ------------------- */
 .calc-wrapper {
 	padding-top: 50px;
@@ -703,23 +643,6 @@ footer .column
 	max-width: 800px;
 	margin: 0 auto;
 }
-
-.heading {
-	margin-bottom: 50px;
-	text-align: center;
-}
-
-.heading-title {
-	margin: 0;
-	margin-bottom: 15px;
-	font-size: 40px;
-	font-weight: 700;
-	line-height: 1;
-	letter-spacing: 0.48px;
-	text-align: center;
-    color: red;
-}
-
 
 .calc-section {
 	padding: 40px 50px;
@@ -731,11 +654,7 @@ footer .column
 	background-color: #fff;
 }
 
-.calc-title-light {
-	font-size: 24px;
-	font-weight: 300;
-	margin-bottom: 15px;
-}
+
 
 .title__inline {
 	display: inline-block;
@@ -752,7 +671,7 @@ footer .column
 
 .radio-wrapper {
 	display: flex;
-	/* align-items: center; */
+	
 }
 
 .radio-wrapper .radio {
@@ -868,32 +787,4 @@ footer .column
 	width: 100%;
 }
 
-.rooms-wrapper {
-	display: flex;
-	flex-direction: start;
-	align-items: center;
-}
 
-
-.rooms-radio-real {
-	opacity: 0;
-	appearance: none;
-	height: 0;
-	width: 0;
-	margin: 0;
-}
-
-.rooms-radio-fake {
-	display: inline-block;
-	width: 50px;
-	height: 50px;
-	background-color: #e2e2e2;
-	text-align: center;
-	line-height: 50px;
-	font-size: 22px;
-	cursor: pointer;
-}
-
-.rooms-radio-real:checked + .rooms-radio-fake {
-	background-color: #fbd422;
-}
