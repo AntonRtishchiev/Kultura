@@ -736,5 +736,6 @@ footer .column
 
 .footer_kontakt img:hover
 {
+    transition: all 0.2s ease-in;
     opacity: 0.6;
 }
